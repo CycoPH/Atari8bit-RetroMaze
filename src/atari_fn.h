@@ -1,0 +1,60 @@
+#ifndef ATARIFN_H
+#define ATARIFN_H
+
+#define VCOUNT 0xD40B
+#define ATTRACT 0x4D
+#define VDSLST 0x200
+#define SDLSTL 0x230
+#define KBCODE 0x2FC
+#define CDTMV3 0x21c
+#define CHBASE_SHADOW 0x2F4
+#define COLOR0 0x2C4
+#define COLOR1 0x2C5
+#define COLOR2 0x2C6
+#define COLOR3 0x2C7
+
+#define PORTB 0xD301
+
+#define PMBASE 0xD407
+#define SDMCTL 0x22F
+#define GRACTL 0xD01D
+#define HPOSP0 0xD000
+#define HPOSP1 0xD001
+#define HPOSP2 0xD002
+#define HPOSP3 0xD003
+#define HPOSM0 0xD004 
+#define HPOSM1 0xD005
+#define HPOSM2 0xD006 
+#define HPOSM3 0xD007 
+
+#define PCOLR0 0x2C0
+#define PCOLR1 0x2C1
+#define PCOLR2 0x2C2
+#define PCOLR3 0x2C3
+#define NMIEN  0xD40E
+#define GPRIOR 0x26F
+#define SIZEP0 0xD008
+#define SIZEP1 0xD009
+#define SIZEP2 0xD00A
+#define SIZEP3 0xD00B
+#define SIZEM  0xD00C
+#define DMACTL 0xD400
+
+#define SIZEM  0xD00C
+
+#define HSCROLL 0xD404
+#define VSCROLL 0xD405
+
+#define DMACTL_TURN_OFF_PLAYFIELD 0
+#define DMACTL_NARROW_PLAYFIELD   1
+#define DMACTL_NORMAL_PLAYFIELD   2
+#define DMACTL_WIDE_PLAYFIELD     DMACTL_NARROW_PLAYFIELD | DMACTL_NORMAL_PLAYFIELD
+#define DMACTL_ENABLE_MISSLE_DMA  4
+#define DMACTL_ENABLE_PLAYER_DMA  8
+#define DMACTL_SINGLE_LINE_RESOLUTION  0x10
+#define DMACTL_DMA_FETCH_INSTRUCTION   0x20
+
+
+
+
+#endif

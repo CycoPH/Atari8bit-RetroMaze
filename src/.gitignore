@@ -1,0 +1,12 @@
+!bin/*
+!bin/Assets/*
+!bin/tools/*
+out/
+temp/
+*.o
+a.txt
+gen_asm/
+*.map
+*.lbl
+*.lab
+.vscode/

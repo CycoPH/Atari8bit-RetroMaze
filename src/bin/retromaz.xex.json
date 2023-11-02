@@ -1,0 +1,6 @@
+{
+  "UnpackAddr": "0x8700",
+  "StartSafeSpace": "0xA000",
+  "EndSafeSpace": "0xAFFF",
+  "Excludes": []
+}
